@@ -6,7 +6,7 @@ const { MongoClient, ObjectId } = require("mongodb");
 const bodyParser = require("body-parser");
 
 const app = express();
-const uri = "mongodb+srv://cse:hi@cluster0.u8whvzd.mongodb.net/"; // Replace with your MongoDB URI
+const uri = "your_url"; // Replace with your MongoDB URI
 const client = new MongoClient(uri);
 
 app.use(cors());
